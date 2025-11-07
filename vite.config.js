@@ -8,6 +8,9 @@ export default defineConfig({
   },
   preview: {
     host: true,
-    allowedHosts: ["campus-project-finder-wvit.onrender.com"],
+    allowedHosts: [
+      "campus-project-finder-wvit.onrender.com", // keep Render if you still use it
+      "project-finder.vercel.app",               // Vercel domain
+    ],
   },
 });
