@@ -1,0 +1,95 @@
+/* PostProject.css */
+
+.post-project-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .post-project-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #6b21a8; /* purple accent */
+    text-align: center;
+  }
+  
+  .post-project-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .post-project-container input,
+  .post-project-container textarea,
+  .post-project-container select {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .post-project-container input:focus,
+  .post-project-container textarea:focus,
+  .post-project-container select:focus {
+    border-color: #6b21a8;
+  }
+  
+  .post-project-container textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .tech-badge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #ede9fe;
+    color: #6b21a8;
+    padding: 6px 10px;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+  }
+  
+  .tech-badge button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #dc2626; /* red for remove */
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    font-size: 0.875rem;
+  }
+  
+  .submit-button {
+    background-color: #6b21a8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #581c87;
+  }
+  

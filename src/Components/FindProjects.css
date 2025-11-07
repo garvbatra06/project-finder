@@ -1,0 +1,196 @@
+/* 🌈 Base Styling */
+body {
+    font-family: "Inter", "Poppins", sans-serif;
+  }
+  
+  /* 🌟 Page Layout */
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .bg-gray-50 {
+    background-color: #f8fafc;
+  }
+  
+  /* 🔍 Header */
+  h2.text-2xl {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+  }
+  
+  /* 🧱 Project Cards */
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .border {
+    border: 1px solid #e5e7eb;
+  }
+  
+  .rounded-xl {
+    border-radius: 1rem;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .shadow-md:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .transition {
+    transition: all 0.3s ease;
+  }
+  
+  .p-5 {
+    padding: 1.25rem;
+  }
+  
+  /* 🧾 Card Content */
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .text-gray-800 {
+    color: #1f2937;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  .text-gray-700 {
+    color: #374151;
+  }
+  
+  .text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  /* 💡 Buttons */
+  button.bg-blue-600 {
+    background-color: #2563eb;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+  }
+  
+  button.bg-blue-600:hover {
+    background-color: #1e40af;
+    transform: translateY(-1px);
+  }
+  
+  /* 🪟 Modal Overlay */
+  .fixed.inset-0 {
+    position: fixed;
+    inset: 0;
+  }
+  
+  .bg-black.bg-opacity-50 {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+  }
+  
+  .flex.justify-center.items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .z-50 {
+    z-index: 50;
+  }
+  
+  /* 🪟 Modal Window */
+  .bg-white.rounded-2xl {
+    background: white;
+    border-radius: 1.25rem;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .shadow-2xl {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .absolute.top-3.right-3 {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+  
+  .text-2xl.font-bold {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  button.absolute {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.2s;
+  }
+  
+  button.absolute:hover {
+    color: #000;
+  }
+  
+  /* 📜 Uploader Details Section */
+  hr.my-4 {
+    margin: 1rem 0;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  h4.text-lg {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1e3a8a;
+  }
+  
+  a.text-blue-600 {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  a.text-blue-600:hover {
+    color: #1d4ed8;
+  }
+  
+  /* 🌀 Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
