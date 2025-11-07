@@ -3,18 +3,11 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    esbuildOptions: {
-      target: "esnext",
-    },
-    include: [
-      "firebase/app",
-      "firebase/auth",
-      "firebase/firestore",
-      "firebase/analytics"
-    ],
+  server: {
+    host: true, // allow network access
   },
-  define: {
-    global: "window", // ✅ fixes some env mismatches
+  preview: {
+    host: true,
+    allowedHosts: ["campus-project-finder-wvit.onrender.com"],
   },
 });
